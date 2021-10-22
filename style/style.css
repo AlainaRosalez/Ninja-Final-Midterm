@@ -1,0 +1,116 @@
+/* do not touch the code below here. Start all your code at the "START YOUR CSS HERE" line. */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Nav Bar*/
+.mainNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#111;
+  }
+  .mainNav li {
+    float: left;
+  }
+  .mainNav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .mainNav li a:hover {
+    background-color: dodgerblue;
+  }
+/* Write all your code below this line */
+/* START YOUR CSS HERE */
+  .body{
+  font-family: sans-serif;
+}
+  .jumbotron{
+      background-image: url("image1.jpg");
+      color: white;
+      padding-top: 150px;
+      padding-bottom: 150px;
+      text-align: center;
+      font-size: 3em;
+}
+  #welcomeMessage h1,
+  #welcomeMessage h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5em;
+  }
+  #favoriteFoodList{
+    text-align: center;
+    border-style: solid;
+    border-color: #111;
+    border: 2px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+    background-color: dodgerblue;
+    color: white;
+    text-size-adjust: 20px;
+    
+  }
+  .articles{
+    margin: 50px;
+    border: solid;
+    border: 2px;
+    border-color: #111;
+  }
+  .articles h1{
+    color: white;
+    background-color: #111;
+    padding: 15px;
+    font-size: 36px;
+}
+.articles p{
+    font-weight: bold; 
+    padding: 15px;
+}
+.p{
+    background-color: dodgerblue;
+    font-style: italic;
+    padding: 15px;
+}
+.fig{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    padding: 15px;
+}
+.figc{
+    font-style: italic;
+    font-weight: bold;
+}
+  .mainFooter{
+    background-color: #111;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 16px;
+    text-align: left;
+  }
+  .mainFp{
+    width: 200px;
+    float: left;
+    padding-left: 50px;
+    font-weight: bold;
+  }
+  .mainFa{
+    text-decoration: none;
+    color: dodgerblue;
+    text-align: right;
+  }
+  .head h2,
+  .head h3,
+  .head h4,
+  .headA{
+    text-align: center;
+    text-decoration: none;
+    color: #111;
+  }
